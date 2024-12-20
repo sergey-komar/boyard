@@ -1,3 +1,43 @@
 .logo{
     width: 170px;
 }
+.nav ul li:not(:last-of-type){
+    margin-right: 7rem;
+}
+.phone-block{
+    margin-left: 40px;
+}
+.phone-header{
+    font-size: 18px;
+
+}
+
+.nav{
+    margin-left: 10rem;
+}
+.phone-block{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main-block_left h1{
+    font-weight: 700;
+}
+.main-block_left h1 span{
+    color: #ffd030;
+}
+.main-block_left{
+    max-width: 55%;
+}
+.main-block_right{
+    max-width: 45%;
+}
+.btn__header{
+    box-shadow: none;
+}
+.main-block_inner{
+    align-items: center;
+}
+.navbar{
+    padding: 1rem 1.5rem;
+}

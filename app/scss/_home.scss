@@ -1,0 +1,123 @@
+.show_inner-events .event{
+    width: calc(100% / 4 - 10px);
+}
+.carousel-circle{
+    padding: 10rem;
+}
+.trials-slider__item-text{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.button__garant.btn-call{
+    max-width: 320px;
+    width: 100%;
+    margin:  0 auto;
+    text-align: center;
+    transform: translateY(90px);
+    font-weight: 700;
+}
+.slider{
+    padding-top: 10rem;
+}
+.trials__text{
+    margin: 0 auto 20px auto;
+    max-width: 80rem;
+    font-size: 18px;
+    text-align: center;
+}
+.slider.slider-birthday,
+.slider.slider-class{
+    padding: 0 0 8rem 0;
+}
+.slider.slider-class{
+    padding-top: 10rem;
+}
+.delight__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delight__inner-btn .play-button{
+    display: block;
+    margin-bottom: 0;
+}
+.calculation-coast_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.calculation-form__title{
+    font-size: 24px;
+    color: #000;
+}
+.calculation-form__box {
+    margin-bottom: 15px;
+}
+.calculation-form__box-title {
+    margin-bottom: 5px;
+}
+.calculation-form__input,
+.dropdown-toggle {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.dropdown {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+.dropdown-menu li label,
+.play-button{
+    position: relative;
+    cursor: pointer;
+    z-index: 20;
+}
+.dropdown-toggle {
+   position: relative;
+}
+.dropdown-toggle::after {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    right: 14px;
+    top: 18px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    transform: rotate(-45deg);
+    transition: all .4s ease-in;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 15px 20px !important;
+    background-color: #fff;
+    z-index: 11111;
+    border: 1px solid #ccc;
+}
+.calculation-form__button{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.show-dropdown{
+    display: block;
+}
+.calculation-coast.calculation-cost--holiday{
+    padding-bottom: 70px;
+    margin-bottom: 0;
+}
+.dropdown-toggle.arrow-drop.dropdown-toggle::after{
+    transform: rotate(135deg);
+    transition: all .4s ease-in;
+}

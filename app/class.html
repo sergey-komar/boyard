@@ -11,21 +11,42 @@
     <div class="wrapper">
       <header class="header">
         <div class="navbar">
-          <div class="burger"><span class="burger__line burger__line--top"></span><span class="burger__line burger__line--middle"></span><span class="burger__line burger__line--bottom"></span></div>
+          <div class="nav-icon">
+            <div class="nav-icon__middle"></div>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li>
+                <a href="./child-birthday.html">Детский день рождения</a>
+              </li>
+              <li>
+                <a href="#">Игра классом</a>
+              </li>
+              <li>
+                <a href="#">Выпускной</a>
+              </li>
+             
+            </ul>
+          </nav>
           <a href="./index.html" class="logo">
             <img src="./images/logo.png" alt="img">
           </a>
           <nav class="nav"> 
             <ul>
-              <li> <a href="#!">Поводы</a></li>
-              <li> <a href="#!">Расчет стоимости</a></li>
-              <li> <a href="#!">Контакты</a></li>
-              <li> <a href="#!">О нас</a></li>
+              <li> <a href="#show">Поводы</a></li>
+              <li> <a href="#form-calculation">Расчет стоимости</a></li>
+              <li> <a href="#footer">Контакты</a></li>
+              <li> <a href="#trials">О нас</a></li>
             </ul>
           </nav>
+          <div class="phone-block">
+            <a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a>
+            <button class="btn-call btn__header btn-click">Перезвоните мне</button>
+          </div>
           <div class="address"> <span>г. Калининград</span><b>ул. Ялтинская, д. 66</b></div>
         </div>
       </header>
+
       <section class="main-block main-block--class">
         <div class="main-block_inner">
           <div class="main-block_left main-block_left--class">
@@ -39,36 +60,170 @@
           <div class="main-block_right"></div>
         </div>
       </section>
-      <section class="exciting-game">
-        <div class="container"> 
-          <div class="exciting-game_inner">
-            <h2>Ваш класс станет героем увлекательной игры</h2>
-            <p>
-              Игровое шоу по мотивам всемирно известного французского телешоу. Вас ждет настоящий замок, Паспарту, змеи и тараканы. Всплеск эмоций гарантирован!</p>
+
+      <section class="slider slider-class">
+        <div class="container">
+          <h2 class="trials__title">
+            Ваш класс станет героем увлекательной 
+          </h2>
+          <div class="trials__text">
+            Игровое шоу по мотивам всемирно известного французского телешоу. Вас ждет настоящий замок, Паспарту, змеи и тараканы. Всплеск эмоций гарантирован!
+          </div>
+          <div class="trials-slider">
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_1.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Увлекательная история и шквал спецэффектов
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_2.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Знакомство и погружение в приключение
+                </div>
+              </div>
+            </div>
+             
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_3.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  10 заданий в замке с лабиринтами
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_4.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Борьба за золото Форта
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_5.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Встреча с настоящими крысами и змеями
+                </div>
+              </div>
+            </div>
+              
+           
           </div>
         </div>
       </section>
 
-
       <section class="delight delight--class">
         <div class="delight-wrapper">
           <div class="container"> 
-            <div class="delight-block">
-              <div class="delight-block__title">
-                Мы объединяем одноклассников на новом уровне
+            <div class="delight__inner">
+              <div class="delight-block">
+                <div class="delight-block__title">
+                  Мы объединяем одноклассников на новом уровне
+                </div>
+                <div class="delight-block__text">
+                  Устраиваем совместные танцы и конкурсы, от которых все в восторге
+                </div>
+                <div class="delight-block__text">
+                  Радостные лица, улыбки и смех говорят о том, что у нас получаются живые праздники, которые запоминаются на всю жизнь
+                </div>
               </div>
-              <div class="delight-block__text">
-                Устраиваем совместные танцы и конкурсы, от которых все в восторге
-              </div>
-              <div class="delight-block__text">
-                Радостные лица, улыбки и смех говорят о том, что у нас получаются живые праздники, которые запоминаются на всю жизнь
+
+              <div class="delight__inner-btn">
+                <a href="#" class="play-button"></a>
               </div>
             </div>
+            
           </div>
         </div>
        
       </section>
 
+      <section class="slider slider-class">
+        <div class="container">
+          <h2 class="trials__title">
+            Мы провели более 1000 праздников и знаем, как удивить школьников и классных руководителей
+          </h2>
+          <div class="trials__text">
+           Посмотрите как может выглядеть ваше мероприятие
+          </div>
+          <div class="trials-slider">
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_1.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Увлекательная история и шквал спецэффектов
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_2.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Знакомство и погружение в приключение
+                </div>
+              </div>
+            </div>
+             
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_3.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  10 заданий в замке с лабиринтами
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_4.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Борьба за золото Форта
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_5.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Встреча с настоящими крысами и змеями
+                </div>
+              </div>
+            </div>
+              
+           
+          </div>
+        </div>
+      </section>
 
       <section class="pleasure">
         <div class="container"> 
@@ -106,65 +261,76 @@
           </div>
         </div>
       </section>
+
       <section class="calculation-coast calculation-cost--holiday">
         <div class="container"> 
           <div class="calculation-coast_inner">
             <div class="calculation-coast_text"> 
               <h2>Получите расчет стоимости праздника и зафиксируйте за собой скидку *</h2>
             </div>
+
+             
+           
+            
             <div class="calculation-coast_form">
               <form class="calculation-form" action="#" method="post">
                 <h1 class="calculation-form__title">Оставьте свои контакты и мы расскажем о нас подробнее!</h1>
                 <div class="calculation-form__field-group">
-                  <label class="calculation-form__label" for="name">Как к вам обращаться?</label>
-                  <input class="calculation-form__input" id="name" type="text" placeholder="Как к вам обращаться?">
-                  <input class="calculation-form__input" type="tel" placeholder="7 (123) 456-78-90">
-                  <!-- Добавляем выпадающий список-->
+                  <div class="calculation-form__box">
+                    <div class="calculation-form__box-title">Как к вам обращаться?</div>
+                    <input class="calculation-form__input" id="name" type="text" placeholder="Анна">
+                  </div>
+                  <div class="calculation-form__box">
+                    <div class="calculation-form__box-title">Телефон</div>
+                    <input class="calculation-form__input" type="tel" placeholder="7 (123) 456-78-90">
+                  </div>
                   <div class="dropdown">
-                    <button class="dropdown-toggle" type="button"> <span>Выберите мероприятие</span><i class="arrow"></i></button>
+                    <button class="dropdown-toggle" type="button"> <span>Какой приближается повод </span><i class="arrow"></i></button>
                     <ul class="dropdown-menu">
                       <li>
-                        <input type="checkbox" id="option1" name="events[]" value="Поход классом">
+                        <input type="radio" id="option1" name="events[]" value="Поход классом">
                         <label for="option1">Поход классом</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option2" name="events[]" value="День Рождения ребенка">
+                        <input type="radio" id="option2" name="events[]" value="День Рождения ребенка">
                         <label for="option2">День Рождения ребенка</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option3" name="events[]" value="23 февраля или 8 марта">
+                        <input type="radio" id="option3" name="events[]" value="23 февраля или 8 марта">
                         <label for="option3">23 февраля или 8 марта (специальная программа)</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option4" name="events[]" value="Начало учебного года">
+                        <input type="radio" id="option4" name="events[]" value="Начало учебного года">
                         <label for="option4">Начало учебного года</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option5" name="events[]" value="Выпускной">
+                        <input type="radio" id="option5" name="events[]" value="Выпускной">
                         <label for="option5">Выпускной</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option6" name="events[]" value="День Рождения взрослого">
+                        <input type="radio" id="option6" name="events[]" value="День Рождения взрослого">
                         <label for="option6">День Рождения взрослого</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option7" name="events[]" value="Корпоратив или Тимбилдинг">
+                        <input type="radio" id="option7" name="events[]" value="Корпоратив или Тимбилдинг">
                         <label for="option7">Корпоратив или Тимбилдинг</label>
                       </li>
                       <li>
-                        <input type="checkbox" id="option8" name="events[]" value="Другое">
+                        <input type="radio" id="option8" name="events[]" value="Другое">
                         <label for="option8">Другое</label>
                       </li>
                     </ul>
                   </div>
-                  <button class="calculation-form__button">Связаться с </button>
+                  <button class="calculation-form__button">Связаться с</button>
                 </div>
                 <div class="calculation-form__note">Заполняя форму, вы даете согласие на обработку своих персональных данных и соглашаетесь с <a class="calculation-form__link" href="#">Политикой конфиденциальности.</a><br>*если предполагает происходит в день обращения</div>
               </form>
             </div>
+
           </div>
         </div>
       </section>
+
       <section class="map"> 
         <div class="container"> 
           <h2>Наши <span class="highlight">контакты</span></h2>
@@ -194,6 +360,7 @@
           </div>
         </div>
       </section>
+
       <footer class="footer"> 
         <div class="container">
           <div class="footer_inner"> 
@@ -220,7 +387,55 @@
           <p class="copyright">© 2023 Форт Боярд на Ялтинской</p>
         </div>
       </footer>
+
     </div>
+
+    <div class="modal">
+      <div class="modal__inner">
+          <div class="modal__inner-block">
+            
+            <div class="modal-wrapper">
+              <div class="modal-wrapper__title">
+                Укажите контактные данные и удобное время для звонка
+              </div>
+              <div class="modal-wrapper__text">
+                Менеджер компании позвонит Вам прямо сейчас или в другое рабочее время
+              </div>
+              <form  class="modal-form">
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Как к вам обращаться</div>
+                  <input type="text" class="modal-form__input" placeholder="Анна">
+                </div>
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Введите телефон</div>
+                  <input type="tel" class="modal-form__input" placeholder="7 (123)456 78 90">
+                </div>
+               <div class="modal-form__box">
+                <div class="modal-form__box-title">Повод</div>
+                <select>
+                  <option>Детский день рождения</option>
+                  <option>Игра классом</option>
+                  <option>Выпускной</option>
+                  <option>Корпоратив</option>
+                  <option>Без повода</option>
+                </select>
+               </div>
+  
+                <button class="modal-form__btn btn-call">Перезвоните мне</button>
+              </form>
+              <label class="modal-wrapper__label">
+                <input type="checkbox" class="modal-wrapper__checkbox">
+                <span class="modal-wrapper__checkbox-custom"></span>
+                <div class="modal-wrapper__text">
+                  Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфитденциальности.
+                </div>
+              </label>
+              <div class="modal__close">&times;</div>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <script src="./js/main.min.js"></script>
   </body>
 </html>

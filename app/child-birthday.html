@@ -9,23 +9,45 @@
 </head>
   <body>
     <div class="wrapper">
+
       <header class="header">
         <div class="navbar">
-          <div class="burger"><span class="burger__line burger__line--top"></span><span class="burger__line burger__line--middle"></span><span class="burger__line burger__line--bottom"></span></div>
+          <div class="nav-icon">
+            <div class="nav-icon__middle"></div>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li>
+                <a href="./child-birthday.html">Детский день рождения</a>
+              </li>
+              <li>
+                <a href="#">Игра классом</a>
+              </li>
+              <li>
+                <a href="#">Выпускной</a>
+              </li>
+             
+            </ul>
+          </nav>
           <a href="./index.html" class="logo">
             <img src="./images/logo.png" alt="img">
           </a>
           <nav class="nav"> 
             <ul>
-              <li> <a href="#!">Поводы</a></li>
-              <li> <a href="#!">Расчет стоимости</a></li>
-              <li> <a href="#!">Контакты</a></li>
-              <li> <a href="#!">О нас</a></li>
+              <li> <a href="#show">Поводы</a></li>
+              <li> <a href="#form-calculation">Расчет стоимости</a></li>
+              <li> <a href="#footer">Контакты</a></li>
+              <li> <a href="#trials">О нас</a></li>
             </ul>
           </nav>
+          <div class="phone-block">
+            <a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a>
+            <button class="btn-call btn__header btn-click">Перезвоните мне</button>
+          </div>
           <div class="address"> <span>г. Калининград</span><b>ул. Ялтинская, д. 66</b></div>
         </div>
       </header>
+
       <section class="main-block main-block--childbirthday">
         <div class="main-block_inner">
           <div class="main-block_left">
@@ -41,6 +63,7 @@
           <div class="main-block_right"></div>
         </div>
       </section>
+
       <section class="programs"> 
         <div class="container">
           <div class="programs_inner"> 
@@ -80,41 +103,76 @@
           </div>
         </div>
       </section>
+
       <section class="trials">
         <div class="compass-cut">
           <img src="./images/compass.png" alt="img">
         </div>
-        <div class="container"> 
-          <div class="trials_inner">
-            <h2>Вас ждут испытания в точности, как в известном шоу</h2>
-            <div class="swiper trials_slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="swiper-slide_img">
-                    <img src="./images/trials_1.jpg" alt="">
-                  </div>
-                  <div class="swiper-slide_text"> 
-                    <h3>Увлекательная история и шквал спецэффектов</h3>
-                    <p>Интригующая музыка, приглушенный свет, легенда про килограммы золота — и это только самое начало</p>
-                  </div>
+
+       
+        <div class="container">
+          <h2 class="trials__title">Вас ждут испытания в точности, как в известном шоу</h2>
+          <div class="trials-slider">
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_1.jpg" alt="img">
                 </div>
-                <div class="swiper-slide">
-                  <div class="swiper-slide_img">
-                    <img src="./images/trials_2.jpg" alt="">
-                  </div>
-                  <div class="swiper-slide_text"> 
-                    <h3>Увлекательная история и шквал спецэффектов</h3>
-                    <p>Интригующая музыка, приглушенный свет, легенда про килограммы золота — и это только самое начало</p>
-                  </div>
+                <div class="trials-slider__item-text">
+                  Увлекательная история и шквал спецэффектов
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="trials_slider-button-next"></div>
-              <div class="trials_slider-button-prev"></div>
             </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_2.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Знакомство и погружение в приключение
+                </div>
+              </div>
+            </div>
+             
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_3.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  10 заданий в замке с лабиринтами
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_4.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Борьба за золото Форта
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_5.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Встреча с настоящими крысами и змеями
+                </div>
+              </div>
+            </div>
+              
+           
           </div>
         </div>
       </section>
+
       <section class="organization">
         <div class="container">
           <div class="organization_inner"> 
@@ -158,25 +216,6 @@
         </div>
       </section>
       
-      <section class="delight">
-        <div class="delight-wrapper">
-          <div class="container"> 
-            <div class="delight-block">
-              <div class="delight-block__title">
-                Мы сделаем всё, чтобы и ребенок, и родители остались в восторге
-              </div>
-              <div class="delight-block__text">
-                Ведущие следят, чтобы все дети принимали участие в игровом шоу и оставались довольными
-              </div>
-              <div class="delight_block-circle">
-                <p> <b>Взрослые могут тоже участвовать или устроить праздничный фуршет</b></p>
-                <p>Вас ждет летняя площадка с мангалами и беседками. Зимой — закрытое отапливаемое помещение.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-       
-      </section>
       <section class="calculation-coast">
         <div class="container"> 
           <div class="calculation-coast_inner">
@@ -199,6 +238,96 @@
           </div>
         </div>
       </section>
+
+      <section class="delight">
+        <div class="delight-wrapper">
+          <div class="container"> 
+            <div class="delight-block">
+              <div class="delight-block__title">
+                Мы сделаем всё, чтобы и ребенок, и родители остались в восторге
+              </div>
+              <div class="delight-block__text">
+                Ведущие следят, чтобы все дети принимали участие в игровом шоу и оставались довольными
+              </div>
+              <div class="delight_block-circle">
+                <p> <b>Взрослые могут тоже участвовать или устроить праздничный фуршет</b></p>
+                <p>Вас ждет летняя площадка с мангалами и беседками. Зимой — закрытое отапливаемое помещение.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+
+      <section class="slider slider-birthday">
+        <div class="container">
+          <h2 class="trials__title">
+            Только посмотрите на эти неподдельные эмоции детей
+          </h2>
+          <div class="trials__text">
+            Игровое шоу по мотивам всемирно известного французского телешоу. Вас ждет настоящий замок, Паспарту, змеи и тараканы. Всплеск эмоций гарантирован!
+          </div>
+          <div class="trials-slider">
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_1.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Увлекательная история и шквал спецэффектов
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_2.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Знакомство и погружение в приключение
+                </div>
+              </div>
+            </div>
+             
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_3.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  10 заданий в замке с лабиринтами
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_4.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Борьба за золото Форта
+                </div>
+              </div>
+            </div>
+  
+            <div class="trials-slider__wrapper">
+              <div class="trials-slider__item">
+                <div class="trials-slider__item-img">
+                  <img src="./images/trials_5.jpg" alt="img">
+                </div>
+                <div class="trials-slider__item-text">
+                  Встреча с настоящими крысами и змеями
+                </div>
+              </div>
+            </div>
+              
+           
+          </div>
+        </div>
+      </section>
+
       <section class="map"> 
         <div class="container"> 
           <h2>Наши <span class="highlight">контакты</span></h2>
@@ -228,6 +357,7 @@
           </div>
         </div>
       </section>
+
       <footer class="footer"> 
         <div class="container">
           <div class="footer_inner"> 
@@ -255,6 +385,53 @@
         </div>
       </footer>
     </div>
+
+    <div class="modal">
+      <div class="modal__inner">
+          <div class="modal__inner-block">
+            
+            <div class="modal-wrapper">
+              <div class="modal-wrapper__title">
+                Укажите контактные данные и удобное время для звонка
+              </div>
+              <div class="modal-wrapper__text">
+                Менеджер компании позвонит Вам прямо сейчас или в другое рабочее время
+              </div>
+              <form  class="modal-form">
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Как к вам обращаться</div>
+                  <input type="text" class="modal-form__input" placeholder="Анна">
+                </div>
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Введите телефон</div>
+                  <input type="tel" class="modal-form__input" placeholder="7 (123)456 78 90">
+                </div>
+               <div class="modal-form__box">
+                <div class="modal-form__box-title">Повод</div>
+                <select>
+                  <option>Детский день рождения</option>
+                  <option>Игра классом</option>
+                  <option>Выпускной</option>
+                  <option>Корпоратив</option>
+                  <option>Без повода</option>
+                </select>
+               </div>
+  
+                <button class="modal-form__btn btn-call">Перезвоните мне</button>
+              </form>
+              <label class="modal-wrapper__label">
+                <input type="checkbox" class="modal-wrapper__checkbox">
+                <span class="modal-wrapper__checkbox-custom"></span>
+                <div class="modal-wrapper__text">
+                  Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфитденциальности.
+                </div>
+              </label>
+              <div class="modal__close">&times;</div>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <script src="./js/main.min.js"></script>
   </body>
 </html>
