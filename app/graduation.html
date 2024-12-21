@@ -49,7 +49,7 @@
 
       <section class="main-block main-block--graduation">
         <div class="main-block_inner">
-          <div class="main-block_left">
+          <div class="main-block_left main-block_left--graduation">
             <h1>Устройте вашим детям незабываемый выпускной</h1>
             <div class="main-block-note"> 
               <div class="note-text"> <span>Рассчитайте стоимость праздника и зафиксируйте за собой скидку *</span><span>*если предоплата происходит в день обращения</span></div>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </section>
-
+ 
       <section class="exciting-game exciting-game--graduation">
         <div class="container"> 
           <div class="exciting-game_inner exciting-game_inner--graduation">
@@ -295,15 +295,18 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="map"> 
+      </section> 
+
+      <section class="map" id="footer"> 
         <div class="container"> 
           <h2>Наши <span class="highlight">контакты</span></h2>
           <div class="map_inner">
-            <div class="map-block"> <img src="./images/map.jpg" width="630" height="459" alt="" title="" loading="lazy"></div>
+            <div class="map-block"> 
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2047818431b1b4f0c1cc055b3aab62ffda273defb44f33edc09f4ddca0d288b2&amp;source=constructor" width="100%" frameborder="0"></iframe>
+            </div>
             <div class="contacts">
               <div class="contacts_block">
-                <h3>Телефон</h3><a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a>
+                <h3>Телефон</h3><a class="phone-header phone-header--footer" href="tel:+79622604324">+7 (962) 260-43-24</a>
               </div>
               <div class="contacts_block">
                 <h3>Адрес</h3>
@@ -325,7 +328,7 @@
           </div>
         </div>
       </section>
-
+  
       <footer class="footer"> 
         <div class="container">
           <div class="footer_inner"> 
@@ -334,7 +337,7 @@
               <span>Форт Боярд на Ялтинской - единственный официальный представитель Форт Боярд в Калининграде</span>
             </a>
            
-            <nav class="nav"> 
+            <nav class="nav nav--footer"> 
               <ul>
                 <li> <a href="#!">Поводы</a></li>
                 <li> <a href="#!">Расчет стоимости</a></li>
@@ -342,7 +345,7 @@
                 <li> <a href="#!">О нас</a></li>
               </ul>
             </nav>
-            <div class="contacts"> <a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a><span>ПН-ВС с 09:00-21:00</span></div>
+            <div class="contacts"> <a class="phone-header phone-header--footer" href="tel:+79622604324">+7 (962) 260-43-24</a><span>ПН-ВС с 09:00-21:00</span></div>
             <div class="socials">
               <div class="social"> <img src="./images/icons/instagram.svg" width="20" height="20" alt="Инстаграм" title="" loading="lazy"></div>
               <div class="social"> <img src="./images/icons/whatsapp.svg" width="20" height="20" alt="Вотсап" title="" loading="lazy"></div>
@@ -352,6 +355,54 @@
           <p class="copyright">© 2023 Форт Боярд на Ялтинской</p>
         </div>
       </footer>
+
+    </div>
+
+    <div class="btnUp btn-call btn-click">Позвонить</div>
+    <div class="modal">
+      <div class="modal__inner">
+          <div class="modal__inner-block">
+            
+            <div class="modal-wrapper">
+              <div class="modal-wrapper__title">
+                Укажите контактные данные и удобное время для звонка
+              </div>
+              <div class="modal-wrapper__text">
+                Менеджер компании позвонит Вам прямо сейчас или в другое рабочее время
+              </div>
+              <form  class="modal-form">
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Как к вам обращаться</div>
+                  <input type="text" class="modal-form__input" placeholder="Анна">
+                </div>
+                <div class="modal-form__box">
+                  <div class="modal-form__box-title">Введите телефон</div>
+                  <input type="tel" class="modal-form__input" placeholder="7 (123)456 78 90">
+                </div>
+              <div class="modal-form__box">
+                <div class="modal-form__box-title">Повод</div>
+                <select>
+                  <option>Детский день рождения</option>
+                  <option>Игра классом</option>
+                  <option>Выпускной</option>
+                  <option>Корпоратив</option>
+                  <option>Без повода</option>
+                </select>
+              </div>
+  
+                <button class="modal-form__btn btn-call">Перезвоните мне</button>
+              </form>
+              <label class="modal-wrapper__label">
+                <input type="checkbox" class="modal-wrapper__checkbox">
+                <span class="modal-wrapper__checkbox-custom"></span>
+                <div class="modal-wrapper__text">
+                  Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфитденциальности.
+                </div>
+              </label>
+              <div class="modal__close">&times;</div>
+            </div>
+          </div>
+      </div>
     </div>
     <script src="./js/main.min.js"></script>
   </body>

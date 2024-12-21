@@ -63,6 +63,7 @@
     padding: 0 10px;
     background-color: #fff;
     text-align: center;
+    border-radius: .5rem;
 }
 .dropdown {
     margin-top: 30px;
@@ -166,6 +167,29 @@
     top: 11.5rem;
     right: 4.8rem;
 }
+.map_inner .map-block{
+    border-radius: 20px;
+}
+.map-block iframe{
+    height: 450px;
+    border-radius: 20px;
+}
 
-
-
+.garant{
+    margin-left: auto;
+    margin-right: auto;
+}
+.organization_inner h2{
+    max-width: 114rem;
+    width: 100%;
+}
+.tabs-circle_inner .circle-nav_text,
+.circle-nav_text-note{
+    color: #000 !important;
+}
+.carousel_item{
+    z-index: 15;
+}
+.tabs-circle_inner .tabs-circle_nav-item .circle-nav_text-note{
+    font-size: 24px;
+}

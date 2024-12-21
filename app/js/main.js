@@ -2,11 +2,31 @@ $(function () {
     $('.trials-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+                arrows: false,
+                dots: true
+              }
+            },
+          
+          ]
        
     })  
     $('.organization-slider__inner').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+                arrows: false,
+                dots: true
+              }
+            },
+          
+          ]
        
     })  
     
@@ -14,6 +34,8 @@ $(function () {
 
 
 window.addEventListener('DOMContentLoaded', () => {
+
+
     const menu = document.querySelector(".menu");
     const mobile = document.querySelector(".nav-icon");
   
@@ -103,6 +125,8 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     }
 
+    
+
 
     const tabsItem = document.querySelector('.circle-test');
     const tabsItemBtn = document.querySelectorAll('.circle');
@@ -124,26 +148,41 @@ window.addEventListener('DOMContentLoaded', () => {
         tabsItemBtn[i].classList.add('active-tabs');
     }
 
-    tabsItem.addEventListener('click', (e)=>{
-        const target = e.target;
-        if(target && target.classList.contains('circle')){
-            tabsItemBtn.forEach((item, i)=>{
-                if(target == item){
-                    tabsHide();
-                    tabsShow(i);
-                }
+    if(tabsItem && tabsItemBtn && tabsContent){
+        tabsItem.addEventListener('click', (e)=>{
+            const target = e.target;
+            if(target && target.classList.contains('circle')){
+                tabsItemBtn.forEach((item, i)=>{
+                    if(target == item){
+                        tabsHide();
+                        tabsShow(i);
+                    }
+                
+                })
             
-            })
-        
-        }
-    })
-
-    tabsHide();
-    tabsShow(0);
-
+            }
+        })
+    
+        tabsHide();
+        tabsShow(0);
+    }
+   
 
     
-        
+    const header = document.querySelector(".header");
+
+   
+    function up() {
+        window.addEventListener('scroll', () => {
+          if(window.scrollY > 10){
+            header.classList.add('header-scroll');
+          }else{
+            header.classList.remove('header-scroll');
+          }
+        })
+      }
+      up();
+      
         
            
     

@@ -54,7 +54,7 @@
             <div class="main-block-note"> 
               <div class="note-text"> <span>Рассчитайте стоимость праздника и зафиксируйте за собой скидку *</span><span>*если предоплата происходит в день обращения</span></div>
             </div>
-            <button class="btn-header btn-header--childbirthday">Получить расчет</button>
+            <button class="btn-header btn-header--childbirthday btn-click">Получить расчет</button>
             <div class="description">Непростые испытания, знакомые с детства герои и манящий дух приключения - вот из чего состоит квест-шоу Форт.<br>Превратите любое мероприятие в уникальное и запоминающееся.</div>
           </div>
           <div class="main-block_right"></div>
@@ -278,14 +278,16 @@
         </div>
       </section>
 
-      <section class="map"> 
+      <section class="map" id="footer"> 
         <div class="container"> 
           <h2>Наши <span class="highlight">контакты</span></h2>
           <div class="map_inner">
-            <div class="map-block"> <img src="./images/map.jpg" width="630" height="459" alt="" title="" loading="lazy"></div>
+            <div class="map-block"> 
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2047818431b1b4f0c1cc055b3aab62ffda273defb44f33edc09f4ddca0d288b2&amp;source=constructor" width="100%" frameborder="0"></iframe>
+            </div>
             <div class="contacts">
               <div class="contacts_block">
-                <h3>Телефон</h3><a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a>
+                <h3>Телефон</h3><a class="phone-header phone-header--footer" href="tel:+79622604324">+7 (962) 260-43-24</a>
               </div>
               <div class="contacts_block">
                 <h3>Адрес</h3>
@@ -307,7 +309,7 @@
           </div>
         </div>
       </section>
-
+  
       <footer class="footer"> 
         <div class="container">
           <div class="footer_inner"> 
@@ -316,7 +318,7 @@
               <span>Форт Боярд на Ялтинской - единственный официальный представитель Форт Боярд в Калининграде</span>
             </a>
            
-            <nav class="nav"> 
+            <nav class="nav nav--footer"> 
               <ul>
                 <li> <a href="#!">Поводы</a></li>
                 <li> <a href="#!">Расчет стоимости</a></li>
@@ -324,7 +326,7 @@
                 <li> <a href="#!">О нас</a></li>
               </ul>
             </nav>
-            <div class="contacts"> <a class="phone-header" href="tel:+79622604324">+7 (962) 260-43-24</a><span>ПН-ВС с 09:00-21:00</span></div>
+            <div class="contacts"> <a class="phone-header phone-header--footer" href="tel:+79622604324">+7 (962) 260-43-24</a><span>ПН-ВС с 09:00-21:00</span></div>
             <div class="socials">
               <div class="social"> <img src="./images/icons/instagram.svg" width="20" height="20" alt="Инстаграм" title="" loading="lazy"></div>
               <div class="social"> <img src="./images/icons/whatsapp.svg" width="20" height="20" alt="Вотсап" title="" loading="lazy"></div>
@@ -337,6 +339,7 @@
 
     </div>
 
+    <div class="btnUp btn-call btn-click">Позвонить</div>
     <div class="modal">
       <div class="modal__inner">
           <div class="modal__inner-block">
@@ -357,7 +360,7 @@
                   <div class="modal-form__box-title">Введите телефон</div>
                   <input type="tel" class="modal-form__input" placeholder="7 (123)456 78 90">
                 </div>
-               <div class="modal-form__box">
+              <div class="modal-form__box">
                 <div class="modal-form__box-title">Повод</div>
                 <select>
                   <option>Детский день рождения</option>
@@ -366,7 +369,7 @@
                   <option>Корпоратив</option>
                   <option>Без повода</option>
                 </select>
-               </div>
+              </div>
   
                 <button class="modal-form__btn btn-call">Перезвоните мне</button>
               </form>

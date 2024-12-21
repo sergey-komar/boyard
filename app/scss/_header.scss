@@ -1,5 +1,21 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 21;
+   
+}
+.header.header-scroll{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.main-block{
+    margin-top: 120px;
+}
+
 .logo{
     width: 170px;
+}
+.navbar{
+    justify-content: space-between;
 }
 .nav ul li:not(:last-of-type){
     margin-right: 7rem;
