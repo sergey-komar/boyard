@@ -23,7 +23,7 @@
 .trials__text{
     margin: 0 auto 20px auto;
     max-width: 80rem;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 .slider.slider-birthday,
@@ -69,7 +69,9 @@
     position: relative;
     margin-bottom: 30px;
 }
-
+.dropdown.dropdown--graduation{
+    margin: 10px 0;
+}
 .dropdown-menu li {
     margin-bottom: 10px;
     cursor: pointer;
@@ -90,7 +92,7 @@
     width: 12px;
     height: 12px;
     right: 14px;
-    top: 18px;
+    top: 14px;
     border-bottom: 2px solid #000;
     border-left: 2px solid #000;
     transform: rotate(-45deg);
@@ -98,6 +100,7 @@
 }
 .dropdown-menu{
     display: none;
+    width: 100%;
     position: absolute;
     top: 60px;
     left: 0;
@@ -121,3 +124,48 @@
     transform: rotate(135deg);
     transition: all .4s ease-in;
 }
+.exciting-game--graduation p{
+    margin-bottom: 20px;
+}
+.calculation-coast_inner .calculation-coast_form .coast-form_field-group .coast-form_button{
+    width: 100%;
+}
+.footer .organization{
+    margin-bottom: 20px;
+}
+.trials{
+    margin-bottom: 10rem;
+}
+.carousel_item{
+    margin: auto;
+    top: -15px;
+}
+.hide-tabs{
+    display: none;
+}
+.show-tabs{
+    display: block;
+}
+.circle-wrapper{
+    position: relative;
+}
+.circle{
+    z-index: 1000;
+}
+.active-tabs{
+    background-color: var(--orange_2)
+}
+.circle-1 {
+    top: 12rem;
+    left: 4.5rem;
+}
+.circle-3 {
+    top: -4.5rem; 
+}
+.circle-2 {
+    top: 11.5rem;
+    right: 4.8rem;
+}
+
+
+

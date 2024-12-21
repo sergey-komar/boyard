@@ -4,6 +4,11 @@ $(function () {
         slidesToScroll: 1,
        
     })  
+    $('.organization-slider__inner').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+       
+    })  
     
 })
 
@@ -97,5 +102,50 @@ window.addEventListener('DOMContentLoaded', () => {
             dropdownBtn.classList.toggle('arrow-drop')
         })
     }
+
+
+    const tabsItem = document.querySelector('.circle-test');
+    const tabsItemBtn = document.querySelectorAll('.circle');
+    const tabsContent = document.querySelectorAll('.carousel_item');
+
+    function tabsHide(){
+        tabsContent.forEach(item => {
+            item.classList.add('hide-tabs');
+            item.classList.remove('show-tabs');
+        });
+
+        tabsItemBtn.forEach(btn =>{
+            btn.classList.remove('active-tabs');
+        })
+    }
+    function tabsShow(i){
+        tabsContent[i].classList.add('show-tabs');
+        tabsContent[i].classList.remove('hide-tabs');
+        tabsItemBtn[i].classList.add('active-tabs');
+    }
+
+    tabsItem.addEventListener('click', (e)=>{
+        const target = e.target;
+        if(target && target.classList.contains('circle')){
+            tabsItemBtn.forEach((item, i)=>{
+                if(target == item){
+                    tabsHide();
+                    tabsShow(i);
+                }
+            
+            })
+        
+        }
+    })
+
+    tabsHide();
+    tabsShow(0);
+
+
+    
+        
+        
+           
+    
 
 })//
